@@ -1,0 +1,570 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Donation for blood</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Nova+Flat' rel='stylesheet' type='text/css' />
+    <link href="assets/css/style.css" rel="stylesheet" />
+ </head>
+	<body>
+     <div id="pre-div">
+        <div id="loader">
+		</div>
+    </div>
+     <div id="home" class="navbar navbar-default move-me ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+					<a class="navbar-brand" href="#">
+                   <img src="assets/img/logo.png" class="navbar-brand-logo " alt="">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse ">
+                <ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+                        <a href="Home.html">HOME <i class="fa fa-bars"></i>
+                        </a>
+                        </li>
+                    <li class="dropdown">
+                     <a href="#about">ABOUT<i class="fa fa-bars"></i>
+                      </a>
+                       <!-- </li>
+                       <li class="dropdown">
+                        <a href="#impact">IMPACT  <i class="fa fa-bars"></i>
+                        </a>
+                        </li> -->
+                    <!-- <li class="dropdown">
+                        <a href="#recent-events">EVENTS<i class="fa fa-bars"></i>
+                        </a>
+                        </li> -->
+                    <li class="dropdown">
+                        <a href="#contact">CONTACT <i class="fa fa-bars"></i>
+                          </a>
+					</li>
+                </ul>
+            </div>
+			</div>
+    </div>
+    <!--./ NAV BAR END -->
+    <div class="header-sec-bar" >
+        <span>
+            <i class="fa fa-envelope-o "></i>mrizwan9022@gmail.com
+            <i class="fa fa-phone "></i>+91-8441988897
+
+            <i class="fa fa-globe"></i>www.codrops.com
+		</span>
+		</div>
+    <!--./ HEADER SECTION BAR END -->
+    <div id="main-head">
+	<div class="container">
+        <div class="row">
+          <div class="col-lg-6  col-md-6 col-sm-12">
+			<h2>BECOME A BLOOD DONOR?</h2>
+                    <h5>Want to save lives ?  </h5>
+                    <span><strong><i class="glyphicon glyphicon-tint"></i> </strong></span>
+					<h6><b>If you want to donate<br>
+					Please Enter your Details</b></h6>	
+						<form action="donate_p.php" method="post">
+                        <div class="form-group">
+                            <input type="text" size=150px class="form-control" name="email" required="required" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  name="name" placeholder="Enter your name here" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="age" name="age" class="form-control" required pattern="[18-50]+" placeholder="Please Enter your Age">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phoneno"  class="form-control" required pattern="[0-9]+" placeholder="Please Enter your number">
+                        </div>
+                        
+                        <div class="form-group" >
+                           <select class="form-control" name="blood">
+                                <option value="">Selet your blood group</option>
+                                <option value="A +">A+</option>
+                               <option value="A -">A -</option>
+                               <option value="B +">B +</option>
+                               <option value="B -">B -</option>
+                               <option value="Ab +">Ab +</option>
+                               <option value="Ab -">Ab -</option>
+                               <option value="O +">O +</option>
+                               <option value="O -">O -</option>
+                           </select>
+                        </div>
+
+
+                        <div class="form-group" >
+                           <select class="form-control" name="gender">
+                                <option value="">Selet your Gender</option>
+                                <option value="male">Male</option>
+                               <option value="femaleE">Female</option>
+                               <option value="others">Others</option>
+                           </select>
+                        </div>
+                         
+<!--                          <div  style="float:left; color: orange; ">
+
+                         Select your Gender                      
+                           <form>
+                            <input  type="radio" name="gender" value="male" checked> Male
+                            <input type="radio" name="gender" value="female" > Female
+                            <input type="radio" name="gender" value="other"> Other
+
+                            </form> 
+                        </div>
+ -->                        
+ <br>
+
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-style-1 btn-lg ">REGISTER</button>
+                        </div>
+
+                    </form>
+
+
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-6">
+                    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+
+                                <img src="assets/img/slider/1.jpg" width="100%">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/slider/2.jpg" width="100%">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/slider/3.jpg" width="100%">
+                            </div>
+                        </div>
+                        <!--INDICATORS-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-slider" data-slide-to="1"></li>
+                            <li data-target="#carousel-slider" data-slide-to="2"></li>
+                        </ol>
+                        <!--PREVIUS-NEXT BUTTONS-->
+                        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                            <i class="fa fa-angle-left fa-2x control-icon main-color"></i>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                            <i class="fa fa-angle-right fa-2x control-icon main-color"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--./ MAIN HEADER SECTION END -->
+    <div id="about">
+        <div class="container">
+            <div class="row text-center" data-scroll-reveal="enter from the bottom after .3s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2>ABOUT GIVE HELP </h2>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="row pad-low">
+                <div class="col-lg-4 col-md-4 hover-color" data-scroll-reveal="enter from the left after .6s">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-medkit fa-5x  icon-round "></i>
+
+                        </div>
+                        <div class="media-body">
+                          <h3 class="media-heading">BENEFITS OF BLOOD DONATION</h3>
+                            <p>
+                               A blood donor must be deemed healthy before donating blood. ... A person who donates blood burns about 650 calories with every pint donated, as the body has to work to replenish itself. Though there are many benefits to donating blood just one time, the people who benefit most from blood donations are regular donors
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4" data-scroll-reveal="enter from the bottom after .9s">
+                    <div class="media">
+                        <div class="pull-left">
+                            <!-- <i class="fa fa-cutlery fa-5x  icon-round"></i> -->
+                            <i class="fa fa-medkit fa-5x  icon-round "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">BLOOD DONATION</h3>
+                            <p>
+                               A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical medications by a process called fractionation (separation of whole-blood components). ... Donors can also have blood drawn for their own future use (autologous donation).                         </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4" data-scroll-reveal="enter from the right after .6s">
+                    <div class="media">
+                        <div class="pull-left">
+                            <!-- <i class="fa fa-home fa-5x  icon-round  "></i> -->
+                            <i class="fa fa-medkit fa-5x  icon-round "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">WHY GIVE BLOOD</h3>
+                            <p>
+                                Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments.Many people would not be alive today if donors had not generously given their blood.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--./ ABOUT SECTION END -->
+    <!-- <div id="budget">
+        <div class="container">
+            <div class="row text-center" data-scroll-reveal="enter from the bottom after .3s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2>OUR FINIANCIAL BUDGET</h2>
+                    <p>If you want to know about our budget you can download it here,</p>
+                    <br />
+                </div>
+            </div>
+            <div class="row" data-scroll-reveal="enter from the top after .6s">
+                <div class="col-lg-12 col-md-12 text-center">
+                    <a href="#" class="btn btn-style-4 btn-lg ">DOWNLOAD BUDGET</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--./ BUDGET SECTION END -->
+   <!--  <div id="impact">
+        <div class="container">
+            <div class="row text-center" data-scroll-reveal="enter from the bottom after .3s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2>OUR IMPACT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <br />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 ">
+
+
+                    <div  data-scroll-reveal="enter from the left after .5s">
+                         <h4>Provided medical facilities </h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                <span >95%</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div  data-scroll-reveal="enter from the left after .7s">
+                        <h4>Food Resources </h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                <span >75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div  data-scroll-reveal="enter from the left after .9s">
+                        <h4>Shelter Arrangement</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <span >90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div  data-scroll-reveal="enter from the left after 1.1s">
+                        <h4>Fund Utilized</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 98%">
+                                <span >98%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!--  <div class="col-sm-7 knob-sec" data-scroll-reveal="enter from the right after .8s">
+                    <h4>HELP TO RAISE FUND</h4>
+                    <h5>Total Requirement of funds is <b>3,90,000</b>  </h5>
+                    <br>
+                    <input type="text" class="dial" data-step="10000"  data-fgcolor="#ff0000" data-thickness=".3" value="310345" data-min="90" data-max=" 390000" data-displayprevious="true" >
+                    <h5> 3,10,345  Funds raised till date</h5>
+                </div> -->
+
+
+
+            </div>
+        </div>
+    </div> 
+    <!--./ IMPACT SECTION END -->   
+    <div class="reviews-section">
+        
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-12 ">
+                        <h2>OUR THOUGHTS</h2>
+                        <div id="reviews" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#reviews" data-slide-to="0" class=""></li>
+                                <li data-target="#reviews" data-slide-to="1" class=""></li>
+                                <li data-target="#reviews" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+
+                                            <h4><i class="fa fa-quote-left"></i>Donate blood and,<br>
+																				   be a hero of someone’s life..<i class="fa fa-quote-right"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><i class="fa fa-quote-left"></i>The blood you donate gives someone another 
+
+                                                                    chance at life<br> 
+																	One day that someone may be a close relative, a friend, a loved one—or even you.” <i class="fa fa-quote-right"></i></h4>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item active">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><i class="fa fa-quote-left"></i>SUCCESS HAS<br> NOTHING TO DO WITH<br>WHAT YOU GAIN IN<br>LIFE OR ACCOMPLISH<br>FOR YOURSELF.IT'S<br>WHAT YOU DO FOR OTHERS. <i class="fa fa-quote-right"></i></h4>
+											<h5 class="pull-right"><strong class="c-black">Sed ultricies</strong></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+    
+<!-- <div id="recent-events">
+        <div class="container">
+            <div class="row text-center"  data-scroll-reveal="enter from the bottom after .5s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2><strong style = "color : black">RECENT EVENTS</strong></h2>
+                 <p>WE HAVE ORGANIZED MANY EVENTS TO HELP THE VICTIMS OF FLOOD</p>
+                </div>
+            </div>
+              <div class="row pad-low " data-scroll-reveal="enter from the top after .7s">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Providing Blankets </a></h3>
+                                
+                                <a class="preview" href="assets/img/portfolio/big/1.jpg"><i class="fa fa-eye"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Help </a></h3>
+                                
+                                <a class="preview" href="assets/img/portfolio/big/2.jpg"><i class="fa fa-eye"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#"> Statistics </a></h3>
+                                
+                                <a class="preview" href="assets/img/portfolio/big/3.jpg"><i class="fa fa-eye"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/4.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Training sessions </a></h3>
+                                
+                                <a class="preview" href="assets/img/portfolio/big/4.jpg" ><i class="fa fa-eye"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    / EVENT SECTION END -->    
+    <section id="contact">
+        <div class="container"> 
+
+           
+                <div class="row text-center" data-scroll-reveal="enter from the bottom after .5s">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <h2><strong style = "color : black">CONTACT US</strong></h2>
+                        <p>You can contact us and send us your messages and thoughts.<br>
+								If you want something from us as help you can request us</p>
+                        <br />
+                    </div>
+                  
+                </div>
+             <div class="row ">
+                  <div class="col-lg-6  col-md-6  col-sm-6 cont-div">
+                    <form>
+                        <div class="form-group" data-scroll-reveal="enter from the left after .6s">
+                            <input type="text" class="form-control" required="required" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group" data-scroll-reveal="enter from the left after .7s">
+                            <input type="text" class="form-control" required="required" placeholder="Your Email">
+                        </div>
+                        <div class="form-group" data-scroll-reveal="enter from the left after .8s">
+                            <input type="number" name="phno" required class="form-control"> 
+                        </div>
+                        <div class="form-group" data-scroll-reveal="enter from the left after .8s">
+                            <textarea name="message" id="message" required="required" class="form-control" style="min-height: 100px;" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group" data-scroll-reveal="enter from the left after .9s">
+                            <button type="submit" class="btn btn-style-2 ">Submit Request</button>
+                        </div>
+
+                    </form>
+                </div>
+                      <div class="col-lg-4 col-lg-offset-1  col-md-4  col-md-offset-1 col-sm-4 col-sm-offset-1" data-scroll-reveal="enter from the right after .8s">
+                    <h3><strong>OUR LOCATION </strong></h3>
+                    <p>you can find us on our address</p>
+
+                    <p><strong>ADDRESS :</strong>plot#2&3,sec-16,Near Thane Naka,Khandagaon,New panvel,Navi Mumbai,pin-410206</p>
+                    <br />
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control " autocomplete="off" placeholder="Enter your email" required="">
+                            <span class="input-group-btn">
+                                <button class="btn  btn-primary " type="button">Subscribe!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    <!--./ Contact End -->
+   <!--  <div id="footer-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4" id="about-ftr">
+                    <h3><span>A Small Introduction</span></h3>
+                    <p>
+                        We leave you a tradition with a future. </br>
+						The tender loving care of human beings will never' become obsolete.
+						People even more than things have to be restored, renewed, revived, reclaimed and redeemed and redeemed and redeemed.
+						Never throw out anybody. Remember, if you ever need a helping hand, you’ll find one at the end of your arm. 
+						As you grow older, you will discover that you have two hands: one for helping yourself, the other for helping others.
+
+                    </p>
+                 </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3><span>Latest Donations</span></h3>
+                    <div id="blog-footer-div">
+                        <div class="media">
+                            <div class="pull-left">
+                                <img src="assets/img/user2.png" class="img-thumbnail" alt="">
+                            </div>
+                            <div class="media-body">
+                                <span class="media-heading">JHON DEO</span>
+                                <small class="muted">Rs.50000 in Cash</small>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="pull-left">
+                                <img src="assets/img/user.gif" class="img-thumbnail" alt="">
+                            </div>
+                            <div class="media-body">
+                                <span class="media-heading">JUSTIN</span>
+                                <small class="muted">Rs.40000 by Cheque</small>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-lg-4 col-md-4">
+                    <h3><span>Quick Donation</span></h3>
+                    <div>
+                        plot#2&3, New Panvel , Navi Mumbai
+                    <br />
+                        Call: +91-9341623095
+                        <br />
+                        E-mail: givehelp@example.com
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-style-2 ">DONATE FOR HELPLESS PEOPLE</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+      <div class="move-me">
+
+      
+    <a href="#home" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+          </div>
+     <!--END SCROLLUP LINK SECTION-->
+    
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Scrolling Script -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  PrettyPhoto Script -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <!--  knob Scripts -->
+    <script src="assets/js/jquery.knob.js"></script>
+     <!--  SCROLL REVEAL Scripts -->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!--  Custom Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+      
+    </script>
+</body>
+</html>
